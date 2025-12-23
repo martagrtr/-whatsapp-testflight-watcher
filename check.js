@@ -68,5 +68,4 @@ async function notifyPushover(message) {
       console.error("Error comprobando", link.name, err.message);
     }
   }
-  await notifyPushover("✅ Test: el watcher funciona correctamente");
 })();
